@@ -1,0 +1,73 @@
+ .theme{ 
+
+    text-align: center;
+text-shadow: 2px 2px 4px #78167f8f;
+ offset: distance 4cm;
+ background: linear-gradient(to right, #cea89d, #9e9178);
+width: 150px;
+height: 100px;}
+
+.style {
+    text-align: center;
+     color: #a6a2a2;
+  height: 50vh;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+   
+}
+.background {
+    background-image: url("background-image.jpg");
+    background-size: 100vh;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:aqua;
+    text-align: center;
+}
+
+   
+
+.ss a {
+       place-items:inherit;
+        width: 100%;        
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: transform 0.5s;
+    }
+                      
+  
+        
+        
+    .mligne a { 
+            text-shadow: 2px 2px 4px #c323cf8f;
+            display:inline-block;
+            margin-left: 5cm;}
+
+            
+            
+            
+     html { 
+                background: url(./noir.jpg) no-repeat center center fixed; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+              }
+
+   
+    footer  {
+        
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(8, 8, 19) ;
+        text-align: center;
+      }
